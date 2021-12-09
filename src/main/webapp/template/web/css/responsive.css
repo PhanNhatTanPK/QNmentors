@@ -1,0 +1,57 @@
+/* PC từ 1024px */
+/* Ipad từ 740px đén 1023px */
+/* Mobile */
+@media (max-width: 739px){
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-full-width{
+        width: 100%;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: inherit;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .searchicon{
+        display: none;
+    }
+
+    #header .mobile-menu{
+        display: block;
+    }
+
+    #content .member-item{
+        width: 100%;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+    
+    .place-item{
+        padding-bottom: 16px;
+    }
+
+    .btn{
+        margin-bottom: 32px;
+    }
+}
